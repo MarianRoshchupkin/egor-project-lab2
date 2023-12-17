@@ -1,0 +1,30 @@
+.loadButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.loadButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: var(--white);
+  outline: 1px solid var(--black);
+  transition: all .3s ease;
+}
+
+.desc {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: var(--black);
+}
+
+.loadButton:hover {
+  background-color: var(--greyEA);
+  outline: 1px solid var(--greyEA);
+}
